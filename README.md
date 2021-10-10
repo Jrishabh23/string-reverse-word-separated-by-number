@@ -1,1 +1,21 @@
-# string-reverse-word-separated-by-number
+// Algorithm
+
+-   START
+-   Step 1: Check string is not empty
+-   Step 1.1: If string empty then return
+-   Step 2: Split string into array
+-   Step 3: Filter that array and return if have any number value and find length of array
+-   Step 3.1: Check that length is equal to zero and string length is greater than zero
+-   Step 3.1.1: Split string value and reverse it. Also join array and return it.
+-   Step 4: Declare new variable as a empty string
+-   Step 4: Iterate For..in loop with array of split string that have created in step 3
+-   Step 5: Given String split into value step 3 array value and copy it two variable
+-   Step 5.1 : First variable store string value that before of iterate array number value
+-   Step 5.2 : Second variable store rest of value
+-   Step 6: Step 5.1 variable convert into string by toString() method and split by ''(blank space).
+-   Step 6.1: Step 6 array reverse the value and join with ''(blank space), and add with Step 4 variable
+-   Step 7: Step 5.2 variable convert into string and copy to given string
+-   Step 8: Check if length of Step 3 array is equal to index of iterate loop + 1 than Step 5.2 variable follow Step 6
+-   Step 9: return Step 4 variable
+-   END
+-   \*/
